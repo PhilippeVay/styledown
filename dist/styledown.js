@@ -102450,11 +102450,11 @@ module.exports={
   },
   "devDependencies": {
     "browserify": "^16.2.2",
-    "chai": "~1.9.0",
+    "chai": "^1.10.0",
     "coffee-script": "~1.7.1",
     "console-polyfill": "^0.1.2",
     "express": "~3.4.8",
-    "jsdom": "~0.10.1",
+    "jsdom": "11.11.0",
     "mocha": "~1.17.1",
     "sinon": "~1.8.2",
     "supertest": "^3.1.0"
