@@ -102419,7 +102419,7 @@ function extend() {
 
 },{}],499:[function(require,module,exports){
 module.exports={
-  "name": "styledown",
+  "name": "@philippevay/styledown",
   "description": "Markdown-based styleguide generator",
   "keywords": [
     "markdown",
@@ -102427,7 +102427,7 @@ module.exports={
     "styleguide"
   ],
   "author": "Rico Sta. Cruz <hi@ricostacruz.com>",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "repository": {
     "type": "git",
     "url": "https://github.com/styledown/styledown.git"
