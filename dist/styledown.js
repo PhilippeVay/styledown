@@ -102442,7 +102442,7 @@ module.exports={
     "highlight.js": "^9.12.0",
     "js-beautify": "^1.7.5",
     "marked": "^0.4.0",
-    "mdconf": "^0.0.2",
+    "@philippevay/mdconf": "latest",
     "mdextract": "^1.0.0",
     "minimist": "^1.2.0",
     "pug": "^2.0.3",
