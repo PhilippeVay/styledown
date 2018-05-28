@@ -7,7 +7,7 @@
     "styleguide"
   ],
   "author": "Rico Sta. Cruz <hi@ricostacruz.com>",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/styledown/styledown.git"
@@ -18,26 +18,26 @@
     "prepublish": "make -B dist"
   },
   "dependencies": {
-    "cheerio": "0.17.0",
-    "highlight.js": "8.1.0",
-    "jade": "1.5.0",
-    "js-beautify": "1.5.1",
-    "marked": "0.3.1",
-    "mdconf": "0.0.2",
+    "cheerio": "^0.22.0",
+    "highlight.js": "^9.12.0",
+    "js-beautify": "^1.7.5",
+    "marked": "^0.4.0",
+    "@philippevay/mdconf": "latest",
     "mdextract": "^1.0.0",
-    "minimist": "^0.2.0",
-    "read-input": "^0.1.0"
+    "minimist": "^1.2.0",
+    "pug": "^2.0.3",
+    "read-input": "^0.3.1"
   },
   "devDependencies": {
-    "browserify": "^5.9.1",
-    "chai": "~1.9.0",
-    "coffee-script": "~1.7.1",
+    "browserify": "^16.2.2",
+    "chai": "^1.10.0",
+    "coffee-script": "^1.12.7",
     "console-polyfill": "^0.1.2",
-    "express": "~3.4.8",
-    "jsdom": "~0.10.1",
-    "mocha": "~1.17.1",
+    "express": "^4.16.3",
+    "jsdom": "11.11.0",
+    "mocha": "^4.x",
     "sinon": "~1.8.2",
-    "supertest": "~0.9.0"
+    "supertest": "^3.1.0"
   },
   "bin": {
     "styledown": "./bin/styledown"
