@@ -1,3 +1,10 @@
+## v1.0.7 - May 29, 2018
+
+* This fork is published on npm with a scope: @philippevay/styledown
+* Uses pug 2.x instead of jade 1.5
+* Bumps all dependencies and following devDependencies: jsdom, mocha, chai, browserify, coffee-script, express and supertest
+* Removes dependency mdconf (briefly scoped as @philippevay/mdconf) (doesn't seem to be used anymore)
+
 ## v1.0.2 - January 15, 2015
 
  * Fix `console` errors of `dist/styledown.js` in certain JS runtimes
@@ -12,9 +19,9 @@
 
 ## v0.7.0 - August 8, 2014
 
- * Changed GitHub URL to https://github.com/styledown/styledown, and updated all 
+ * Changed GitHub URL to https://github.com/styledown/styledown, and updated all
  URLs in the docs accordingly.
- * The default conf (`styledown --conf`) now includes a `<meta name='viewport'>` 
+ * The default conf (`styledown --conf`) now includes a `<meta name='viewport'>`
  tag for responsiveness.
 
 ## v0.6.1 - August 7, 2014

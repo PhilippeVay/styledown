@@ -102427,7 +102427,7 @@ module.exports={
     "styleguide"
   ],
   "author": "Rico Sta. Cruz <hi@ricostacruz.com>",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "repository": {
     "type": "git",
     "url": "https://github.com/styledown/styledown.git"
@@ -102442,7 +102442,6 @@ module.exports={
     "highlight.js": "^9.12.0",
     "js-beautify": "^1.7.5",
     "marked": "^0.4.0",
-    "@philippevay/mdconf": "latest",
     "mdextract": "^1.0.0",
     "minimist": "^1.2.0",
     "pug": "^2.0.3",
